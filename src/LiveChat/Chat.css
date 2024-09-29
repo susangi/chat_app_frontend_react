@@ -1,0 +1,26 @@
+/* src/Chat.css */
+.chat-messages ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .chat-messages li {
+    padding: 5px;
+    margin: 5px 0;
+    border-radius: 5px;
+  }
+  
+  .chat-input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .me {
+    background-color: #d1ffd1; /* Light green */
+  }
+  
+  .client {
+    background-color: #d1e7ff; /* Light blue */
+  }
+  
